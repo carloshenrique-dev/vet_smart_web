@@ -85216,8 +85216,8 @@ $0(){var s=0,r=A.W(t.H),q=this,p,o,n,m,l,k
 var $async$$0=A.X(function(a,b){if(a===1)return A.T(b,r)
 while(true)switch(s){case 0:for(p=q.a,o=p.f,n=0;n<J.a8(p.d);++n){m=J.aq(p.d,n).b-J.aq(p.e,n).b
 l=Math.abs(m)
-if(m>0)o.push(new A.ds(J.aq(p.e,n).a,A.ef(B.d.a_(l,2)),B.lt))
-else if(m<0)o.push(new A.ds(J.aq(p.e,n).a,A.ef(B.d.a_(l,2)),B.Cp))}k=q.b
+if(m>0)o.push(new A.ds(J.aq(p.e,n).a,A.ef(B.d.a_(l,2)),B.Cp))
+else if(m<0)o.push(new A.ds(J.aq(p.e,n).a,A.ef(B.d.a_(l,2)),B.lt))}k=q.b
 if(o.length!==0)A.apE(B.c9,"Ver alertas",k,new A.adu(p,k),"Voc\xea tem novos alertas!!!",B.Jn)
 else A.apE(B.c9,"Okay",k,null,"Exames sem altera\xe7\xf5es",B.Jm)
 p.az(new A.adv())
